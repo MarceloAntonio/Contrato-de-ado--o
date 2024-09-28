@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+padding: 0;
+box-sizing: border-box;
+ font-family: "JetBrains Mono", monospace;
+margin: 10px;
+text-align: center;
+
+}
+
+html{
+
+  margin: 0;
+}
+
+
+body{
+
+margin: 0;
+
+}
+
+main{
+margin: 0;
+background-color: antiquewhite;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+padding: 20px;
+
+}
+div{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+input[type="checkbox"]{
+
+width: 100px;
+ 
+}
+
+h3{font-size: medium; 
+text-align: center;}
+
+
+button{
+width: 200px;
+
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+
+  
+  
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+img{
+
+width: 250px;
+
+}
